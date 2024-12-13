@@ -1,0 +1,132 @@
+
+.contact-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.contact-heading {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #f97316;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.contact-heading:hover {
+  color: #fbbf24; 
+}
+
+.contact-description {
+  font-size: 1.125rem;
+  color: #f97316;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.contact-description:hover {
+  color: #fbbf24;
+}
+
+.about-contact:hover {
+  color: #fbbf24; 
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 1.125rem;
+  color: #f97316;
+}
+
+.contact-item:hover {
+  color: #fbbf24; 
+}
+
+.contact-item svg {
+  color: #facc15;
+}
+
+.contact-item svg:hover {
+  color: #f97316;
+}
+
+.input-field {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 2px;
+  border-radius: 8px;
+  color: #f97316
+}
+
+.form-label {
+  background-color: black;
+  font-size: 1rem;
+  padding: 4px;
+  color: #f97316;
+}
+
+.form-label:hover {
+  color: #f4d146;
+}
+
+.input-field input,
+.input-field textarea {
+  padding: 12px;
+  font-size: 1rem;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  background-color: black;
+  color: #f97316;
+}
+
+.input-field input:focus,
+.input-field textarea:focus {
+  outline: none;
+  border-color: #facc15;
+}
+
+.input-field:hover {
+  color: #f4d146;
+}
+
+.textarea-field {
+  resize: vertical;
+}
+
+
+.textarea-field:hover {
+  color: #f4d146;
+}
+
+
+.send-button {
+  background-color: #f4d146;
+  color: #1a202c;
+  padding: 12px 20px;
+  margin-top: 10px;
+  font-size: 1.125rem;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%;
+}
+
+.send-button:hover {
+  background-color: #fbbf24;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 40px;
+}
+
+@media (min-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr 1fr; 
+  }
+}

@@ -1,0 +1,45 @@
+
+.about-container {
+  padding: 50px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.about-heading {
+  font-size: 2.5rem; 
+  color: #f97316; 
+  margin-bottom: 20px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.about-heading:hover {
+  color: #fbbf24; 
+}
+
+
+.about-text {
+  font-size: 1.2rem; 
+  color: #f97316; 
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto;
+  padding-bottom: 30px;
+}
+
+.about-text:hover {
+  color: #fbbf24; 
+}
+
+
+[data-aos="fade-down"] {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+[data-aos="fade-down"].aos-animate {
+  opacity: 1;
+  transform: translateY(0);
+}

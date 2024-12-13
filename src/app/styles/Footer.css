@@ -1,0 +1,29 @@
+.footer-container {
+  background: linear-gradient(to right, #f97316, #fbbf24);
+  padding-top: 10px;
+  padding-bottom: 20px;
+  color: white;
+  position: relative;
+  text-align: center;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.footer-text {
+  font-size: 1.5rem;
+  font-weight: bold;
+  transition: color 0.3s ease; 
+}
+
+.footer-text:hover {
+  color: #facc15;
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

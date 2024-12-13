@@ -1,0 +1,30 @@
+.text-center {
+    text-align: center;
+  }
+  
+  .pb-8 {
+    padding-bottom: 2rem; 
+  }
+  
+  .border-b-4 {
+    border-bottom-width: 4px;
+  }
+  
+  .border-yellow-400 {
+    border-color: #facc15;
+  }
+  
+  .text-4xl {
+    font-size: 2.25rem; 
+    line-height: 2.5rem; 
+  }
+  
+  .text-orange-600 {
+    color: #d97706;
+  }
+  
+
+  .hover\:text-yellow-500:hover {
+    color: #eab308;
+  }
+  

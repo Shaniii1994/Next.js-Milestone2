@@ -1,0 +1,82 @@
+
+.navbar-container {
+  background: linear-gradient(to right, #f97316, #fbbf24);
+  color: white;
+  position: relative;
+  padding-top: 10px;
+  padding-left: 20px;
+}
+
+.navbar-container .text-xl {
+  font-size: 1.5rem; 
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 15px 20px;
+  transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #facc15; 
+  text-decoration: underline;
+}
+
+.menu-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  color: white;
+}
+
+.menu-icon:hover {
+  color: #facc15;
+}
+
+.navbar-container .md\:hidden {
+  display: block; 
+}
+
+.navbar-container .md\:flex {
+  display: none; 
+}
+
+.navbar-container .navbar-container .nav-link {
+  padding: 12px 0;
+  font-size: 1.2rem;
+  border-bottom: 1px solid #f1f1f1;
+}
+
+.navbar-container .navbar-container a {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+.navbar-container .absolute {
+  background-color: #2d3748; 
+  position: absolute;
+  top: 64px; 
+  left: 0;
+  width: 100%;
+  padding-top: 15px;
+}
+
+.navbar-container .navbar-container a:hover {
+  background-color: #facc15;
+  color: #1a202c; 
+}
+
+@media (min-width: 768px) {
+  .navbar-container .md\:flex {
+    display: flex; 
+  }
+  .navbar-container .md\:hidden {
+    display: none; 
+  }
+}
