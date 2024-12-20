@@ -2,11 +2,11 @@
 import { useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import Hero from "@/components/Hero";
-import Projects from "@/components/Projects";
-import Skills from "@/components/Skills";
-import Contact from "@/components/Contact";
-import About from "@/components/About";
+import Hero from "@/app/components/Hero";
+import Projects from "@/app/components/Projects";
+import Skills from "@/app/components/Skills";
+import Contact from "@/app/components/Contact";
+import About from "@/app/components/About";
 import "./globals.css";
 
 export default function Home() {
@@ -19,6 +19,7 @@ export default function Home() {
       anchorPlacement: "bottom-bottom",
       offset: 160,
     });
+    Aos.refresh();
   }, []); 
 
   return (

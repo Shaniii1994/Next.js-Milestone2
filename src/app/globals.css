@@ -1,6 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
 
 body { 
-    background-image: url(/luxury-gold-paint-splash-granules-platter-black-background_57613-533.avif);
+    background-image: url(/bg-image-4.png);
     background-size: 100%;
 }
   
+@layer base {
+    body {
+        color: orange;
+        background-color: #000;
+    }
+}
+
+@layer components {
+    .menuLink {
+        @apply cursor-pointer hover:text-[red];
+    }
+
+    .tags {
+        background-color: #0abde3;
+        margin-right: 0.5rem;
+        margin-top: 0.5rem;
+        padding: 3px 10px;
+        display: inline-block;
+        color: #fff;
+        font-size: 12px;
+    }
+
+    .tags:last-child {
+        margin-right: 0;
+        background-color: #a55eea;
+    }
+    .tags:nth-child(2) {
+        background-color: purple;
+    }
+    .tags:nth-child(3) {
+        background-color: #db9f10;
+    }
+    .tags:nth-child(4) {
+        background-color: #eb4d4b;
+    }
+}
